@@ -27,7 +27,7 @@ function SignUp({ signupDetails, setSignupDetails }) {
             document.getElementById("Initial").value ===
             document.getElementById("secondInitial").value
           ) {
-            fetch("https://sammy-sinatra-tasks.onrender.com/signup", {
+            fetch("https://abdilatifshukri-sinatra-api.onrender.com/signup", {
               method: "POST",
               headers: {
                 "content-type": "application/json",

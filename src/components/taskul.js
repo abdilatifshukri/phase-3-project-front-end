@@ -25,7 +25,7 @@ function TaskUl({ taskd, setcurrTask, allTasks, setAllTasks }) {
       <button
       className="liBtn3"
         onClick={() => {
-          fetch(`https://sammy-sinatra-tasks.onrender.com/tasks/${taskd.id}`, {
+          fetch(`https://abdilatifshukri-sinatra-api.onrender.com/tasks/${taskd.id}`, {
             method: "DELETE",
             headers: {
               "content-type": "application/json",

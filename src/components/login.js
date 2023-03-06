@@ -32,7 +32,7 @@ function LogIn({
           e.preventDefault();
           // console.log(loginDetails)
 
-          fetch("https://sammy-sinatra-tasks.onrender.com/login", {
+          fetch("https://abdilatifshukri-sinatra-api.onrender.com/login", {
             method: "PATCH",
             headers: {
               "content-type": "application/json",
@@ -46,7 +46,7 @@ function LogIn({
             .then((data) => {
               // console.log(data)
               if (data.isRegistered === "true") {
-                fetch("https://sammy-sinatra-tasks.onrender.com/tasks", {
+                fetch("https://abdilatifshukri-sinatra-api.onrender.com/tasks", {
                   method: "PATCH",
                   headers: {
                     "content-type": "application/json",

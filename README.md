@@ -29,7 +29,7 @@ The goal of this application is:
 ## Livelink
 Use netlify  to check out website and perform operations from there.The link is:
 
-        wan           soo            wadaa
+        https://incredible-sfogliatella-4c4da7.netlify.app/
 
 Click here if you would like to see the backend of this project built with sinatra, ruby and activerecords
             

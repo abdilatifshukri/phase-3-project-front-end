@@ -43,7 +43,7 @@ function UpdateTask({
           if (updatedStatus.status === "") {
             setUpdatedStatus({ status: "" });
           } else {
-            fetch(`https://sammy-sinatra-tasks.onrender.com/tasks/update/${currTask.id}`, {
+            fetch(`https://abdilatifshukri-sinatra-api.onrender.com/tasks/update/${currTask.id}`, {
               method: "PATCH",
               headers: {
                 "content-type": "application/json",
@@ -59,7 +59,7 @@ function UpdateTask({
               });
           }
 
-          fetch("https://sammy-sinatra-tasks.onrender.com/tasks", {
+          fetch("https://abdilatifshukri-sinatra-api.onrender.com/tasks", {
             method: "PATCH",
             headers: {
               "content-type": "application/json",
